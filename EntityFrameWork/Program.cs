@@ -116,8 +116,7 @@ namespace EntityFrameWork
                 var result = context.Users.FirstOrDefault(x=>x.Name=="user5");
                 context.Users.Remove(result);
                 context.SaveChanges();
-                Console.WriteLine($"User:{result.Name} delet");
-                
+                Console.WriteLine($"User:{result.Name} delet");                
             }
         }
 
